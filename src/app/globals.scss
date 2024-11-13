@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("/font/gothampro_medium.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("/font/gothampro.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("/font/gothampro_black.ttf") format("tff");
+  font-weight: black;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("/font/gothampro_bold.ttf") format("tff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("/font/gothampro_light.ttf") format("tff");
+  font-weight: light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("/font/gothampro_medium.ttf") format("tff");
+  font-weight: medium;
+  font-style: normal;
+}
+
+body {
+  font-family: "Gotham Pro", sans-serif;
+  @apply bg-[#27272F];
+}
